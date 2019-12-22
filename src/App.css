@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+    border: 1px solid grey;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 1rem;
+}
